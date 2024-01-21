@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,600&family=Inter&family=Montserrat:wght@500;700&display=swap');
+body{
+    background-color:hsl(233, 47%, 7%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;  
+}
+.perent{
+    width:550px;
+    color: white;
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    border-radius: 10px;    
+}
+.cheld{
+    text-align: center;
+    padding: 25px;
+}
+.perent img{
+    background-color:hsl(244, 38%, 16%) ;
+    width: 50%;
+    border-radius: 0 10px 10px 0;  
+}
+.box{
+    display: flex;
+}
+h3{
+    font-family: 'Inter', sans-serif;;
+}
+.number{
+     font-weight: bold;
+     font-size: 20px;
+}
+p, .nomspan{
+    color: darkgrey;
+    font-size: 9px;
+    font-family: sans-serif;
+}
+.nom{
+    color: blueviolet;
+}
